@@ -1,0 +1,15 @@
+<h2 style="text-align: center; color: aliceblue;background-color: black;">DBZ GT  PERSONAJES</h2>
+<hr>
+
+<div class="row">
+  <div class="col">
+    <dbz-list (onDeleteId)="onDeleteId($event)"
+    [characterList]="characters"></dbz-list>
+
+  </div>
+
+  <div class="col">
+    <dbz-add-character (onNewCharacter)="onNewCharacter($event)"></dbz-add-character>
+  </div>
+
+</div>

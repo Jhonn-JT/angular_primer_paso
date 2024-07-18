@@ -1,0 +1,13 @@
+<h2 style="text-align: center; background-color: black;
+color: aliceblue;
+">PRACTICANDO</h2>
+<div class="row">
+<div class="col">
+  <app-list-person [listPersona]="persona"></app-list-person>
+</div>
+
+<div class="col">
+  <app-add-person (nuevaPersona)="nuevaPersona($event)"></app-add-person>
+</div>
+
+</div>
